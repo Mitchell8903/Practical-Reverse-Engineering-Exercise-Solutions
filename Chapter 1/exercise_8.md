@@ -2,7 +2,9 @@
 
 ## Exercise 8
 
-Sample H. Decompile `sub_11732` and expllain the most likely programming construct used in the original code.
+**Sample H. Decompile `sub_11732` and expllain the most likely programming construct used in the original code.**
+
+**Tool used:** Radare2
 
 ### Disassembly
 
