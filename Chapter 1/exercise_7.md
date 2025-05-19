@@ -2,7 +2,7 @@
 
 ## Exercise 7
 
-**Sample H. The funcftion `sub_10BB6` has a loop searching for something. First recover the function prototype and then infer the types based on the context. Hint: You should probably have a copy of the PE specification nearby.**
+**Sample H. The function `sub_10BB6` has a loop searching for something. First recover the function prototype and then infer the types based on the context. Hint: You should probably have a copy of the PE specification nearby.**
 
 **Tool used:** Radare2
 
