@@ -54,7 +54,7 @@ Sample H. The function `sub_10BB6` has a loop searching for something. First rec
 int __stdcall sub_10bb2(struct _arg_4h *arg_4h)
 ```
 
-### Preliminary Analysis & Function Behaviour
+### Initial Observations
 
 1. The code from `0x00010bb2` to `0x00010bcc` appear to retrieve a structure pointer, `arg_4h`, access a substructure member, and compare a word member at `+6` to 0. If the value < 0 , return 0.
 
@@ -108,7 +108,7 @@ arg_4h → IMAGE_DOS_HEADER                           (base)
 ```
 - Source: https://learn.microsoft.com/en-us/windows/win32/debug/pe-format#ms-dos-stub-image-only
 
-### Decompiled Function
+### Decompilation
 
 Given the behaviour and implied PE format, the decompiled function can include more detailed names:
 
